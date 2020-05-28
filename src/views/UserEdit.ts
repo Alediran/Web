@@ -1,4 +1,4 @@
-import { View } from './generic/View';
+import { View } from './Base/View';
 import { User, UserProps } from '../models/Users';
 import { UserShow } from './UserShow';
 import { UserForm } from './UserForm';
