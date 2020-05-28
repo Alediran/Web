@@ -6,8 +6,8 @@
     "axios": "^0.19.2"
   },
   "scripts": {
-    "cleanup": "del -f .cache dist",
-    "dev": "npm run cleanup && parcel ./index.html",
+    "cleanup": "rd /S /Q .cache dist",
+    "dev": "npm run cleanup && parcel index.html",
     "start:db": "json-server -w db.json",
     "start:parcel": "parcel index.html"
   }

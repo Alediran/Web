@@ -1,4 +1,4 @@
-import { Model } from '../models/Model';
+import { Model } from '../../models/Model';
 
 export abstract class View<T extends Model<K>, K> {
   regions: { [key: string]: Element } = {};

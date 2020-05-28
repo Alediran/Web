@@ -1,5 +1,5 @@
 import { User, UserProps } from '../models/Users';
-import { View } from './View';
+import { View } from './generic/View';
 
 export class UserShow extends View<User, UserProps> {
   template(): string {
